@@ -10,10 +10,22 @@ html {
     font-family: sans-serif;
   }
   
+  section {
+    display: flex;
+    flex-direction:column; 
+    align-items:flex-end; 
+  }
+
+  .krow {
+    height: 100px;
+    /* background-color: green; */
+}
+
+
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 10vh;
     align-items: center;
     justify-content: center;
   }
