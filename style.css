@@ -1,6 +1,6 @@
 html {
-    font-size: 10px;
-    background: url('./background.jpg') bottom center;
+    font-size: 7px;
+    background: url('./background.jpg')  ;
     background-size: cover;
   }
   
@@ -11,6 +11,7 @@ html {
   }
   
   section {
+
     display: flex;
     flex-direction:column; 
     align-items:flex-end; 
